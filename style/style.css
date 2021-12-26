@@ -1,3 +1,18 @@
 body {
-  background-color: aqua;
+  margin: 0;
+}
+@media only screen and (min-width: 375px) {
+  body {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  body {
+    background-color: plum;
+  }
 }
