@@ -1,18 +1,24 @@
 body {
-  margin: 0;
+  margin: 0px;
 }
 @media only screen and (min-width: 375px) {
-  body {
-    background-color: red;
+  .page {
+    background: url("/assets/home/background-home-mobile.jpg");
+    background-size: cover;
+    height: 100vh;
   }
 }
 @media only screen and (min-width: 768px) {
-  body {
-    background-color: yellow;
+  .page {
+    background: url("/assets/home/background-home-tablet.jpg");
+    background-size: cover;
+    height: 100vh;
   }
 }
 @media only screen and (min-width: 1280px) {
-  body {
-    background-color: plum;
+  .page {
+    background: url("/assets/home/background-home-desktop.jpg");
+    background-size: cover;
+    height: 100vh;
   }
 }
