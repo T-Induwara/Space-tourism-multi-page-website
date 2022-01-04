@@ -1,6 +1,8 @@
 body {
   margin: 0px;
 }
+/* font-family: 'Bellefair', serif; */
+/* font-family: 'Barlow Condensed', sans-serif; */
 @media only screen and (min-width: 375px) {
   .page {
     background: url("/assets/home/background-home-mobile.jpg");
