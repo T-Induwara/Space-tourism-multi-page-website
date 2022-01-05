@@ -1,26 +1,111 @@
 body {
   margin: 0px;
+  padding: 0px;
 }
+.nav-bar {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+.logo {
+  margin-left: 60px;
+}
+.logo img {
+  width: 30px;
+}
+.navbar-links ul li a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Barlow Condensed", sans-serif;
+  letter-spacing: 2.35px;
+  color: white;
+  padding: 16px;
+  display: block;
+}
+.navbar-links li:hover {
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
-@media only screen and (min-width: 375px) {
-  .page {
+@media only screen and (max-width: 768px) {
+  body {
     background: url("/assets/home/background-home-mobile.jpg");
     background-size: cover;
     height: 100vh;
   }
+  .logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .navbar-links {
+    display: none;
+    margin-left: 50vw;
+  }
+  .nav-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-links ul {
+    flex-direction: column;
+  }
+  .navbar-links-active {
+    display: flex;
+  }
+  .toggle-button-open {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+  }
+  .toggle-button-close {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20px;
+  }
 }
 @media only screen and (min-width: 768px) {
-  .page {
+  body {
     background: url("/assets/home/background-home-tablet.jpg");
     background-size: cover;
     height: 100vh;
   }
+  .toggle-button-open,
+  .toggle-button-close {
+    display: none;
+  }
 }
 @media only screen and (min-width: 1280px) {
-  .page {
+  body {
     background: url("/assets/home/background-home-desktop.jpg");
     background-size: cover;
     height: 100vh;
+  }
+  .toggle-button-open,
+  .toggle-button-close {
+    display: none;
   }
 }
