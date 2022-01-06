@@ -77,17 +77,8 @@ body {
     justify-content: space-between;
     width: 20px;
   }
-  .toggle-button-close {
-    position: absolute;
-    top: 25px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 20px;
-  }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
   body {
     background: url("/assets/home/background-home-tablet.jpg");
     background-size: cover;
