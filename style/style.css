@@ -12,7 +12,7 @@ body {
   color: white;
 }
 .logo {
-  margin-left: 60px;
+  margin-left: 30px;
 }
 .logo img {
   width: 30px;
@@ -44,6 +44,7 @@ body {
 
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
+
 @media only screen and (max-width: 768px) {
   body {
     background: url("/assets/home/background-home-mobile.jpg");
@@ -57,6 +58,17 @@ body {
   .navbar-links {
     display: none;
     margin-left: 50vw;
+    animation: fade-in-move-down 0.7s;
+  }
+  @keyframes fade-in-move-down {
+    0% {
+      opacity: 0;
+      transform: translateX(36px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
   }
   .nav-bar {
     flex-direction: column;
@@ -84,6 +96,9 @@ body {
     background-size: cover;
     height: 100vh;
   }
+  .logo {
+    margin-left: 60px;
+  }
   .toggle-button-open,
   .toggle-button-close {
     display: none;
@@ -94,6 +109,9 @@ body {
     background: url("/assets/home/background-home-desktop.jpg");
     background-size: cover;
     height: 100vh;
+  }
+  .logo {
+    margin-left: 60px;
   }
   .toggle-button-open,
   .toggle-button-close {
