@@ -2,15 +2,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
-.nav-bar {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: transparent;
-  backdrop-filter: blur(10px);
-  color: white;
-}
+
 .logo {
   margin-left: 30px;
 }
@@ -41,6 +33,16 @@ body {
 .navbar-links li:hover {
   border-bottom: 3px solid rgb(192, 192, 192);
 }
+#col1 {
+  background-color: aqua;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#col2 {
+  background-color: brown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
@@ -55,27 +57,32 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
   }
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    z-index: 100;
+  }
   .navbar-links {
     display: none;
     margin-left: 50vw;
     animation: fade-in-move-down 0.7s;
   }
-  @keyframes fade-in-move-down {
-    0% {
-      opacity: 0;
-      transform: translateX(36px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0px);
-    }
-  }
+
   .nav-bar {
     flex-direction: column;
     align-items: flex-start;
   }
   .navbar-links ul {
+    position: absolute;
     flex-direction: column;
+    width: 50vw;
+    z-index: 100;
+  }
+  .navbar-links ul li {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
   }
   .navbar-links-active {
     display: flex;
@@ -99,6 +106,19 @@ body {
   .logo {
     margin-left: 60px;
   }
+  .logo img {
+    width: 40px;
+  }
+  .nav-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    z-index: 100;
+  }
   .toggle-button-open,
   .toggle-button-close {
     display: none;
@@ -112,6 +132,16 @@ body {
   }
   .logo {
     margin-left: 60px;
+  }
+  .nav-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    color: white;
+    z-index: 100;
   }
   .toggle-button-open,
   .toggle-button-close {
