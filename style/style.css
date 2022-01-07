@@ -252,6 +252,11 @@ body {
     height: 274px;
     border-radius: 100%;
     background-color: white;
+    transition: 0.5s;
+  }
+  .home-button:hover {
+    box-shadow: 0px 0px 0px 50px #979797;
+    transition: 0.5s;
   }
   .home-button p {
     text-align: center;
