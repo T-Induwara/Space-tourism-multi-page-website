@@ -60,11 +60,6 @@ body {
 /* font-family: 'Barlow Condensed', sans-serif; */
 
 @media only screen and (min-width: 375px) {
-  body {
-    background: url("/assets/home/background-home-mobile.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
   .logo {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -146,13 +141,14 @@ body {
     font-family: "Bellefair", serif;
   }
   /*End of the homepage css*/
+
+  /*Beginning of the destination css*/
+  .planet {
+    width: 45%;
+  }
+  /*End of the destination css*/
 }
 @media only screen and (min-width: 768px) {
-  body {
-    background: url("/assets/home/background-home-tablet.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
   .logo {
     margin-left: 60px;
   }
@@ -236,13 +232,11 @@ body {
     font-family: "Bellefair", serif;
   }
   /*End of the homepage css*/
+
+  /*Beginning of the destination css*/
+  /*End of the destination css*/
 }
 @media only screen and (min-width: 1280px) {
-  body {
-    background: url("/assets/home/background-home-desktop.jpg");
-    background-size: cover;
-    height: 100vh;
-  }
   .logo {
     margin-left: 60px;
   }
@@ -275,14 +269,17 @@ body {
   }
   .f-text {
     font-size: 28px;
+    margin-left: 5vw;
   }
   .main-text {
     font-size: 150px;
+    margin-left: 5vw;
   }
   .s-text {
     font-size: 18px;
     padding-left: 0vw;
     padding-right: 7vw;
+    margin-left: 5vw;
   }
   #col2 {
     margin-top: 0vh;
@@ -295,6 +292,7 @@ body {
     border-radius: 100%;
     background-color: white;
     transition: 0.5s;
+    margin-right: 5vw;
   }
   .home-button:hover {
     box-shadow: 0px 0px 0px 50px #979797;
@@ -307,4 +305,7 @@ body {
     font-family: "Bellefair", serif;
   }
   /*End of the homepage css*/
+
+  /*Beginning of the destination css*/
+  /*End of the destination css*/
 }

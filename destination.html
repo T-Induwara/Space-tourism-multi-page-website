@@ -12,6 +12,29 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <style>
+            @media only screen and (min-width: 375px){
+                body {
+                    background: url("/assets/destination/background-destination-mobile.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 768px){
+                body {
+                    background: url("/assets/destination/background-destination-tablet.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 1280px){
+                body {
+                    background: url("/assets/destination/background-destination-desktop.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+        </style>
     </head>
     <body>
         <div class="nav-bar">
@@ -26,6 +49,19 @@
                     <li><a href="#">02 CREW</a></li>
                     <li><a href="#">03 TECHNOLOGY</a></li>
                 </ul>
+            </div>
+        </div>
+        <div class="destination-page">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <h5 class="dest-title"><span style="color:rgb(158, 158, 158)">01</span>PICK YOUR DESTINATON</h5>
+                        <div class="planetholder">
+                            <img class="planet" src="assets/destination/image-moon.png" alt="moon">
+                        </div>
+                    </div>
+                    <div class="col-lg-6"></div>
+                </div>
             </div>
         </div>
         

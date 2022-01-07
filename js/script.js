@@ -21,5 +21,7 @@ function imgClick(){
     
 }
 //End of navigation bar js
+
 //No js for homepage
+
 //Start of destination page js
