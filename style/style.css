@@ -56,6 +56,49 @@ body {
 }
 /*End of the homepage css*/
 
+/*Beginning of destination page css*/
+.dest-title {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.dest-title span {
+  margin-right: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.planet-navbar ul li {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+  list-style: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.planet-navbar ul li:hover {
+  border-bottom: 3px solid rgb(192, 192, 192);
+}
+.planet-navbar ul {
+  display: flex;
+}
+.moon-name {
+  color: white;
+  font-family: "Bellefair", serif;
+}
+.moon-desc {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.bottom-section {
+  color: white;
+}
+.dis-title,
+.est-time {
+  font-family: "Barlow Condensed", sans-serif;
+}
+.dis-value,
+.time-value {
+  font-family: "Bellefair", serif;
+}
+/*End of destination page css*/
+
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
 
@@ -307,5 +350,77 @@ body {
   /*End of the homepage css*/
 
   /*Beginning of the destination css*/
+  #dest-row {
+    margin-top: 10vh;
+  }
+  .dest-title {
+    font-size: 28px;
+    margin-left: 5vw;
+  }
+  .dest-title span {
+    font-size: 28px;
+  }
+  .planetholder {
+    margin-top: 10vh;
+  }
+  .planet {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 445px;
+  }
+  #dest-col2 {
+    padding-left: 5vw;
+  }
+  .planet-navbar {
+    margin-top: 10vh;
+  }
+  .planet-navbar ul li {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+  .planet-navbar ul li:hover {
+    border-bottom: 3px solid #979797;
+  }
+  .planet-navbar ul {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -3vw;
+  }
+  .moon-name {
+    font-size: 100px;
+    margin-top: 5vh;
+  }
+  .moon-desc {
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 70px;
+    letter-spacing: 1.5px;
+  }
+  .line {
+    border-top: 1px solid white;
+    margin-top: 5vh;
+    margin-right: 20vh;
+  }
+  .bottom-section {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5vh;
+  }
+  .distance {
+    padding-right: 80px;
+  }
+  .time {
+    padding-left: 80px;
+  }
+  .dis-title,
+  .est-time {
+    font-size: 14px;
+    letter-spacing: 2.35px;
+  }
+  .dis-value,
+  .time-value {
+    font-size: 28px;
+  }
   /*End of the destination css*/
 }
