@@ -59,7 +59,7 @@ body {
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 375px) {
   body {
     background: url("/assets/home/background-home-mobile.jpg");
     background-size: cover;
@@ -80,7 +80,6 @@ body {
     display: none;
     margin-left: 50vw;
   }
-
   .nav-bar {
     flex-direction: column;
     align-items: flex-start;
@@ -148,7 +147,7 @@ body {
   }
   /*End of the homepage css*/
 }
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   body {
     background: url("/assets/home/background-home-tablet.jpg");
     background-size: cover;
@@ -169,6 +168,29 @@ body {
     backdrop-filter: blur(10px);
     color: white;
     z-index: 100;
+  }
+  .navbar-links {
+    display: block;
+    margin-left: 0vw;
+    margin-right: 5vw;
+  }
+
+  .nav-bar {
+    flex-direction: row;
+    align-items: center;
+  }
+  .navbar-links ul {
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    z-index: 100;
+  }
+  .navbar-links ul {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+  }
+  .navbar-links-active {
+    display: flex;
   }
   .toggle-button-open,
   .toggle-button-close {
@@ -233,6 +255,13 @@ body {
     backdrop-filter: blur(10px);
     color: white;
     z-index: 100;
+  }
+  .navbar-links {
+    margin-right: 10%;
+  }
+  .navbar-links li {
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .toggle-button-open,
   .toggle-button-close {
