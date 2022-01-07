@@ -1,4 +1,4 @@
-console.log("Script Loaded");
+//Start of navigation bar js
 var menu1 = new Image;
 menu1.src=("assets/shared/icon-hamburger.svg");
 var menu2 = new Image;
@@ -20,3 +20,6 @@ function imgClick(){
     }
     
 }
+//End of navigation bar js
+//No js for homepage
+//Start of destination page js

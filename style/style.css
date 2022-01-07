@@ -54,6 +54,7 @@ body {
   text-decoration: none;
   color: #0b0d17;
 }
+/*End of the homepage css*/
 
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
@@ -145,6 +146,7 @@ body {
     font-size: 20px;
     font-family: "Bellefair", serif;
   }
+  /*End of the homepage css*/
 }
 @media only screen and (min-width: 769px) {
   body {
@@ -211,6 +213,7 @@ body {
     font-size: 32px;
     font-family: "Bellefair", serif;
   }
+  /*End of the homepage css*/
 }
 @media only screen and (min-width: 1280px) {
   body {
@@ -274,4 +277,5 @@ body {
     font-size: 32px;
     font-family: "Bellefair", serif;
   }
+  /*End of the homepage css*/
 }
