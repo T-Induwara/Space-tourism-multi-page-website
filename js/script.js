@@ -6,6 +6,12 @@ menu2.src=("assets/shared/icon-close.svg");
 
 var navLinks = document.getElementById("nav-links");
 var hamMenu = document.getElementById("toggle-ham-menu");
+
+var homeNavBtn = document.getElementById("home-nav-btn");
+var destNavBtn = document.getElementById("dest-nav-btn");
+var crewNavBtn = document.getElementById("crew-nav-btn");
+var techNavBtn = document.getElementById("tech-nav-btn");
+
 var hamMenuIcon = document.getElementById("toggle-ham-menu").appendChild(menu1);
 
 function imgClick(){
@@ -18,12 +24,26 @@ function imgClick(){
         navLinks.classList.remove("navbar-links-active");
     }
 }
+
+if(window.location.href.indexOf("index") != -1){
+    console.log("INDEX page");
+    homeNavBtn.classList.add("nav-btn-active");
+}
+else if(window.location.href.indexOf("destination") != -1){
+    console.log("DESTINATION page");
+    destNavBtn.classList.add("nav-btn-active");
+}
+else if(window.location.href.indexOf("crew") != -1){
+    crewNavBtn.classList.add("nav-btn-active");
+}
+else if(window.location.href.indexOf("tech") != -1){
+    techNavBtn.classList.add("nav-btn-active");
+}
 //End of navigation bar js
 
 //No js for homepage
 
 //Start of destination 
-var nav = document.getElementById("");
 
 var moonBtn = document.getElementById("moon-btn");
 var marsBtn = document.getElementById("mars-btn");
