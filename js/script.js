@@ -24,4 +24,11 @@ function imgClick(){
 
 //No js for homepage
 
-//Start of destination page js
+//Start of destination 
+var moonBtn = document.getElementById("moon-btn");
+var marsBtn = document.getElementById("mars-btn");
+var europaBtn = document.getElementById("europa-btn");
+var titanBtn = document.getElementById("titan-btn");
+
+var planet = document.getElementById("planet").innerHTML;
+//End of destination page
