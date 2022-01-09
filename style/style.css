@@ -78,6 +78,9 @@ body {
 .planet-navbar ul {
   display: flex;
 }
+.moon-btn {
+  border-bottom: 3px solid white;
+}
 .moon-name {
   color: white;
   font-family: "Bellefair", serif;
@@ -96,6 +99,9 @@ body {
 .dis-value,
 .time-value {
   font-family: "Bellefair", serif;
+}
+.planet-navbar-active {
+  border-bottom: 3px solid white;
 }
 /*End of destination page css*/
 
