@@ -31,17 +31,38 @@ var europaBtn = document.getElementById("europa-btn");
 var titanBtn = document.getElementById("titan-btn");
 
 var planet = document.getElementById("planet");
+var moonName = document.getElementById("moon-name");
+var moonDesc = document.getElementById("moon-desc");
+var moonDistance = document.getElementById("dis-value");
+var estTravel = document.getElementById("time-value");
 
 moonBtn.onclick = function(){
-    planet.src="assets/destination/image-moon.png"
+    planet.src="assets/destination/image-moon.png";
+    moonName.innerHTML = "MOON";
+    moonDesc.innerHTML = "See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.";
+    moonDistance.innerHTML = "384,400 km";
+    estTravel.innerHTML = "3 DAYS";
+
 }
 marsBtn.onclick = function(){
     planet.src="assets/destination/image-mars.png";
+    moonName.innerHTML = "MARS";
+    moonDesc.innerHTML = "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest!";
+    moonDistance.innerHTML = "225 MIL. km";
+    estTravel.innerHTML = "9 MONTHS";
 }
 europaBtn.onclick = function(){
     planet.src="assets/destination/image-europa.png";
+    moonName.innerHTML = "EUROPA";
+    moonDesc.innerHTML = "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.";
+    moonDistance.innerHTML = "628 MIL. km";
+    estTravel.innerHTML = "3 YEARS";
 }
 titanBtn.onclick = function(){
     planet.src="assets/destination/image-titan.png";
+    moonName.innerHTML = "TITAN";
+    moonDesc.innerHTML = "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.";
+    moonDistance.innerHTML = "1.6 BIL. km";
+    estTravel.innerHTML = "7 YEARS";
 }
 //End of destination page
