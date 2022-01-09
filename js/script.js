@@ -30,5 +30,18 @@ var marsBtn = document.getElementById("mars-btn");
 var europaBtn = document.getElementById("europa-btn");
 var titanBtn = document.getElementById("titan-btn");
 
-var planet = document.getElementById("planet").innerHTML;
+var planet = document.getElementById("planet");
+
+moonBtn.onclick = function(){
+    planet.src="assets/destination/image-moon.png"
+}
+marsBtn.onclick = function(){
+    planet.src="assets/destination/image-mars.png";
+}
+europaBtn.onclick = function(){
+    planet.src="assets/destination/image-europa.png";
+}
+titanBtn.onclick = function(){
+    planet.src="assets/destination/image-titan.png";
+}
 //End of destination page

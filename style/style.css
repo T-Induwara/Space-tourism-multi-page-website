@@ -382,6 +382,7 @@ body {
   }
   .planet-navbar ul li:hover {
     border-bottom: 3px solid #979797;
+    cursor: help;
   }
   .planet-navbar ul {
     display: flex;
@@ -529,6 +530,7 @@ body {
   }
   .planet-navbar ul li:hover {
     border-bottom: 3px solid #979797;
+    cursor: help;
   }
   .planet-navbar ul {
     display: flex;
