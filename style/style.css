@@ -186,8 +186,80 @@ body {
   /*End of the homepage css*/
 
   /*Beginning of the destination css*/
+  #dest-row {
+    margin-top: 3vh;
+  }
+  .dest-title {
+    text-align: center;
+    font-size: 16px;
+  }
+  .dest-title span {
+    font-size: 16px;
+  }
+  .planetholder {
+    margin-top: 5vh;
+  }
   .planet {
-    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 170px;
+  }
+  #dest-col2 {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .planet-navbar {
+    margin-top: 3vh;
+  }
+  .planet-navbar ul li {
+    font-size: 14px;
+    letter-spacing: 2.7px;
+  }
+  .planet-navbar ul li:hover {
+    border-bottom: 3px solid #979797;
+  }
+  .planet-navbar ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -3vw;
+  }
+  .moon-name {
+    text-align: center;
+    font-size: 56px;
+    margin-top: 3vh;
+  }
+  .moon-desc {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+  .line {
+    border-top: 1px solid white;
+    width: 300px;
+    margin: auto;
+    margin-top: 5vh;
+  }
+  .bottom-section {
+    display: block;
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .time {
+    margin-top: 3vh;
+  }
+  .dis-title,
+  .est-time {
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2.35px;
+    margin-top: 0vh;
+  }
+  .dis-value,
+  .time-value {
+    text-align: center;
+    font-size: 28px;
+    margin-top: -2vh;
   }
   /*End of the destination css*/
 }
@@ -281,6 +353,7 @@ body {
     margin-top: 3vh;
   }
   .dest-title {
+    text-align: left;
     font-size: 20px;
     margin-left: 5vw;
   }
@@ -341,6 +414,7 @@ body {
   }
   .time {
     padding-left: 80px;
+    margin-top: 0vh;
   }
   .dis-title,
   .est-time {
@@ -488,6 +562,7 @@ body {
   }
   .time {
     padding-left: 80px;
+    margin-top: 0vh;
   }
   .dis-title,
   .est-time {
