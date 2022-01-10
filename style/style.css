@@ -108,6 +108,44 @@ body {
 }
 /*End of destination page css*/
 
+/*Beginning of crew page css*/
+.crew-title {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.crew-title span {
+  margin-right: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.crew-position {
+  color: white;
+  opacity: 50%;
+  font-family: "Bellefair", serif;
+}
+.crew-name {
+  color: white;
+  font-family: "Bellefair", serif;
+}
+.crew-desc {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.crew-nav {
+  display: flex;
+}
+.nav-circles {
+  background-color: #979797;
+  opacity: 17.44%;
+  border-radius: 25px;
+}
+.nav-circles-active {
+  background-color: #979797;
+}
+.crew-image {
+  width: 70%;
+}
+/*End of crew page css*/
+
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
 
@@ -586,3 +624,20 @@ body {
   }
   /*End of the destination css*/
 }
+
+/*Beginning of crew page css*/
+#crew-row {
+  margin-top: 10vh;
+}
+.crew-title {
+  font-size: 28px;
+  margin-left: 5vw;
+}
+.crew-title span {
+  font-size: 28px;
+}
+.nav-circles {
+  width: 15px;
+  height: 15px;
+}
+/*End of crew page css*/
