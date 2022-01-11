@@ -134,15 +134,20 @@ body {
   display: flex;
 }
 .nav-circles {
-  background-color: #979797;
+  background-color: white;
+  transition: 0.5s;
   opacity: 17.44%;
   border-radius: 25px;
 }
 .nav-circles-active {
-  background-color: #979797;
+  background-color: white;
+  opacity: 100%;
 }
-.crew-image {
-  width: 70%;
+.nav-circles:hover {
+  background-color: white;
+  transition: 0.5s;
+  opacity: 100%;
+  cursor: help;
 }
 /*End of crew page css*/
 
@@ -636,8 +641,36 @@ body {
 .crew-title span {
   font-size: 28px;
 }
+.crew-content {
+  padding-left: 5vw;
+  margin-top: 15vh;
+}
+.crew-position {
+  font-size: 32px;
+}
+.crew-name {
+  font-size: 56px;
+}
+.crew-desc {
+  font-size: 18px;
+  margin-top: 20px;
+  padding-right: 80px;
+}
+.crew-nav {
+  padding-left: 4vw;
+  margin-top: 10vh;
+}
 .nav-circles {
   width: 15px;
   height: 15px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+.crew-image {
+  height: 80vh;
+  position: absolute;
+  bottom: 0px;
+  right: 10%;
+  margin-bottom: -3vh;
 }
 /*End of crew page css*/
