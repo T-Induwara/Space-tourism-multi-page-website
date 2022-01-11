@@ -58,7 +58,8 @@ var moonDesc = document.getElementById("moon-desc");
 var moonDistance = document.getElementById("dis-value");
 var estTravel = document.getElementById("time-value");
 
-window.onload = function(){
+window.addEventListener('load',desFunc);
+function desFunc(){
     moonBtn.onclick = function(){
         planet.src = "assets/destination/image-moon.webp";
         moonName.innerHTML = "MOON";
@@ -122,7 +123,8 @@ var crewName = document.getElementById("crew-name");
 var crewDesc = document.getElementById("crew-desc");
 var crewImage = document.getElementById("crew-image");
 
-window.onload = function(){
+window.addEventListener('load',crewFunc);
+function crewFunc(){
     crewNav1.onclick = function(){
         crewImage.src = "assets/crew/image-douglas-hurley.webp";
         crewPosition.innerHTML = "COMMANDER";
