@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>CREW</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+        <link rel="stylesheet" type="text/css" href="style/bootstrap.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+        <style>
+            @media only screen and (min-width: 375px){
+                body {
+                    background: url("/assets/technology/background-technology-mobile.jpg");
+                    background-size:cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 768px){
+                body {
+                    background: url("/assets/technology/background-technology-tablet.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+            @media only screen and (min-width: 1280px){
+                body {
+                    background: url("/assets/technology/background-technology-desktop.jpg");
+                    background-size: cover;
+                    height: 100vh;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="nav-bar">
+            <div class="logo">
+                <a href="index.html"><img src="assets/shared/logo.svg" alt="company logo"></a>
+            </div>
+            <div class="toggle-button-open" id="toggle-ham-menu" onclick="imgClick()"><!--<img src="assets/shared/icon-hamburger.svg">--> </div>
+            <div class="navbar-links" id="nav-links">
+                <ul>
+                    <li id="home-nav-btn"><a href="index.html">00 HOME</a></li>
+                    <li id="dest-nav-btn"><a href="destination.html">01 DESTINATION</a></li>
+                    <li id="crew-nav-btn"><a href="crew.html">02 CREW</a></li>
+                    <li id="tech-nav-btn"><a href="technology.html">03 TECHNOLOGY</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
