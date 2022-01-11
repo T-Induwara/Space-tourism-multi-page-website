@@ -105,3 +105,15 @@ titanBtn.onclick = function(){
     titanBtn.classList.add("planet-navbar-active");
 }
 //End of destination page
+
+//Start of crew page
+var crewNav1 = document.getElementById("nav-c1");
+var crewNav2 = document.getElementById("nav-c2");
+var crewNav3 = document.getElementById("nav-c3");
+var crewNav4 = document.getElementById("nav-c4");
+
+var crewPosition = document.getElementById("crew-position");
+var crewName = document.getElementById("crew-name");
+var crewDesc = document.getElementById("crew-desc");
+var crewImage = document.getElementById("crew-image");
+//End of crew page
