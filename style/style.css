@@ -540,7 +540,6 @@ body {
   }
   .crew-title {
     font-size: 28px;
-    margin-left: 5vw;
   }
   .crew-title span {
     font-size: 28px;
@@ -578,7 +577,7 @@ body {
     position: absolute;
     bottom: 0px;
     right: 25%;
-    margin-bottom: -3vh;
+    margin-bottom: -2vh;
   }
   .crew-image-line {
     display: none;
@@ -739,6 +738,7 @@ body {
     margin-top: 10vh;
   }
   .crew-title {
+    text-align: left;
     font-size: 28px;
     margin-left: 5vw;
   }
@@ -750,19 +750,24 @@ body {
     margin-top: 15vh;
   }
   .crew-position {
+    text-align: left;
     font-size: 32px;
   }
   .crew-name {
+    text-align: left;
     font-size: 56px;
   }
   .crew-desc {
+    text-align: justify;
     font-size: 18px;
     margin-top: 20px;
     padding-right: 80px;
+    padding-left: 0px;
   }
   .crew-nav {
     padding-left: 4vw;
     margin-top: 10vh;
+    justify-content: left;
   }
   .nav-circles {
     width: 15px;
