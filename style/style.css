@@ -479,6 +479,54 @@ body {
     font-size: 28px;
   }
   /*End of the destination css*/
+
+  /*Beginning of crew page css*/
+  #crew-row {
+    margin-top: 3vh;
+  }
+  .crew-title {
+    font-size: 28px;
+    margin-left: 5vw;
+  }
+  .crew-title span {
+    font-size: 28px;
+  }
+  .crew-content {
+    margin-top: 10vh;
+  }
+  .crew-position {
+    text-align: center;
+    font-size: 24px;
+  }
+  .crew-name {
+    text-align: center;
+    font-size: 40px;
+  }
+  .crew-desc {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .crew-nav {
+    margin-top: 5vh;
+    justify-content: center;
+  }
+  .nav-circles {
+    width: 10px;
+    height: 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .crew-image {
+    height: 48vh;
+    position: absolute;
+    bottom: 0px;
+    right: 25%;
+    margin-bottom: -3vh;
+  }
+  /*End of crew page css*/
 }
 @media only screen and (min-width: 1280px) {
   .logo {
@@ -628,49 +676,49 @@ body {
     font-size: 28px;
   }
   /*End of the destination css*/
-}
 
-/*Beginning of crew page css*/
-#crew-row {
-  margin-top: 10vh;
+  /*Beginning of crew page css*/
+  #crew-row {
+    margin-top: 10vh;
+  }
+  .crew-title {
+    font-size: 28px;
+    margin-left: 5vw;
+  }
+  .crew-title span {
+    font-size: 28px;
+  }
+  .crew-content {
+    padding-left: 5vw;
+    margin-top: 15vh;
+  }
+  .crew-position {
+    font-size: 32px;
+  }
+  .crew-name {
+    font-size: 56px;
+  }
+  .crew-desc {
+    font-size: 18px;
+    margin-top: 20px;
+    padding-right: 80px;
+  }
+  .crew-nav {
+    padding-left: 4vw;
+    margin-top: 10vh;
+  }
+  .nav-circles {
+    width: 15px;
+    height: 15px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  .crew-image {
+    height: 80vh;
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+    margin-bottom: -3vh;
+  }
+  /*End of crew page css*/
 }
-.crew-title {
-  font-size: 28px;
-  margin-left: 5vw;
-}
-.crew-title span {
-  font-size: 28px;
-}
-.crew-content {
-  padding-left: 5vw;
-  margin-top: 15vh;
-}
-.crew-position {
-  font-size: 32px;
-}
-.crew-name {
-  font-size: 56px;
-}
-.crew-desc {
-  font-size: 18px;
-  margin-top: 20px;
-  padding-right: 80px;
-}
-.crew-nav {
-  padding-left: 4vw;
-  margin-top: 10vh;
-}
-.nav-circles {
-  width: 15px;
-  height: 15px;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-.crew-image {
-  height: 80vh;
-  position: absolute;
-  bottom: 0px;
-  right: 10%;
-  margin-bottom: -3vh;
-}
-/*End of crew page css*/
