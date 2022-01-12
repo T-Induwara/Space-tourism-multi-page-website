@@ -160,6 +160,19 @@ body {
   margin-right: 20px;
   font-family: "Barlow Condensed", sans-serif;
 }
+.num {
+  color: black;
+  font-family: "Bellefair", serif;
+}
+.terminology-txt,
+.tech-desc {
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.tech-main-txt {
+  color: white;
+  font-family: "Bellefair", serif;
+}
 /*End of tech page css*/
 
 /* font-family: 'Bellefair', serif; */
@@ -833,6 +846,40 @@ body {
   }
   #tech-row {
     margin-top: 10vh;
+  }
+  .tech-sub-col {
+    margin-top: 15vh;
+    margin-left: 5vw;
+  }
+  .tech-nums {
+    position: absolute;
+    display: block;
+  }
+  .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  .tech-sub-content {
+    margin-left: 10vw;
+    padding-top: 5vh;
+  }
+  .terminology-txt {
+    font-size: 16px;
+  }
+  .tech-main-txt {
+    font-size: 56px;
+  }
+  .tech-desc {
+    font-size: 18px;
+    margin-top: 3vh;
   }
   /*End of tech page css*/
 }
