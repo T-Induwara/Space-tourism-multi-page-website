@@ -151,6 +151,17 @@ body {
 }
 /*End of crew page css*/
 
+/*Beginning of tech page css*/
+.tech-title {
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.tech-title span {
+  margin-right: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+/*End of tech page css*/
+
 /* font-family: 'Bellefair', serif; */
 /* font-family: 'Barlow Condensed', sans-serif; */
 
@@ -368,6 +379,19 @@ body {
     margin-top: -0vh;
   }
   /*End of crew page css*/
+
+  /*Start of tech page css*/
+  #tech-row {
+    margin-top: 3vh;
+  }
+  .tech-title {
+    font-size: 16px;
+    text-align: center;
+  }
+  .tech-title span {
+    font-size: 16px;
+  }
+  /*End of tech page css*/
 }
 @media only screen and (min-width: 768px) {
   .logo {
@@ -583,6 +607,18 @@ body {
     display: none;
   }
   /*End of crew page css*/
+
+  /*Start of tech page css*/
+  #tech-row {
+    margin-top: 3vh;
+  }
+  .tech-title {
+    font-size: 28px;
+  }
+  .tech-title span {
+    font-size: 28px;
+  }
+  /*End of tech page css*/
 }
 @media only screen and (min-width: 1280px) {
   .logo {
@@ -786,4 +822,17 @@ body {
     display: none;
   }
   /*End of crew page css*/
+  /*Start of tech page css*/
+  .tech-title {
+    text-align: left;
+    font-size: 28px;
+    margin-left: 5vw;
+  }
+  .tech-title span {
+    font-size: 28px;
+  }
+  #tech-row {
+    margin-top: 10vh;
+  }
+  /*End of tech page css*/
 }
