@@ -457,7 +457,7 @@ body {
     padding: 0px;
     margin-top: 10vh;
   }
-  .tech-image {
+  .tech-image1 {
     background: url("/assets/technology/image-launch-vehicle-landscape.jpg");
     height: 40vh;
     background-repeat: no-repeat;
@@ -738,7 +738,7 @@ body {
     padding: 0px;
     margin-top: 10vh;
   }
-  .tech-image {
+  .tech-image1 {
     background: url("/assets/technology/image-launch-vehicle-landscape.jpg");
     height: 40vh;
     background-repeat: no-repeat;
@@ -1008,7 +1008,7 @@ body {
     padding: 0px;
     margin-top: 5vh;
   }
-  .tech-image {
+  .tech-image1 {
     background: url("/assets/technology/image-launch-vehicle-portrait.jpg");
     width: 515px;
     height: 575px;
