@@ -164,6 +164,7 @@ body {
   color: white;
   font-family: "Bellefair", serif;
   transition: 0.5s;
+  z-index: 20;
 }
 .num:hover {
   color: black;
@@ -1010,24 +1011,6 @@ body {
   }
   .tech-image1 {
     background: url("/assets/technology/image-launch-vehicle-portrait.jpg");
-    width: 515px;
-    height: 575px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    right: 0px;
-  }
-  .tech-image2 {
-    background: url("/assets/technology/image-spaceport-portrait.jpg");
-    width: 515px;
-    height: 575px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    right: 0px;
-  }
-  .tech-image3 {
-    background: url("/assets/technology/image-space-capsule-portrait.jpg");
     width: 515px;
     height: 575px;
     background-repeat: no-repeat;

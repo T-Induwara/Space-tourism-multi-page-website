@@ -176,25 +176,49 @@ var techBtn2 = document.getElementById("num2");
 var techBtn3 = document.getElementById("num3");
 var tecImage = document.getElementById("tech-image");
 
+var sWidth = window.innerWidth;
+console.log(sWidth);
+
+
+
 techBtn1.addEventListener('click', changeImg1);
 function changeImg1(){
-    tecImage.classList.add("tech-image1");
-    tecImage.classList.remove("tech-image2");
-    tecImage.classList.remove("tech-image3");
+    if (sWidth >= 1280){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-portrait.jpg)";
+    }
+    else if (sWidth >= 768){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
+    }
+    else if (sWidth >= 375){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
+    }
 }
 
 techBtn2.addEventListener('click', changeImg2);
 function changeImg2(){
-    tecImage.classList.remove("tech-image1");
-    tecImage.classList.add("tech-image2");
-    tecImage.classList.remove("tech-image3");
+    if (sWidth >= 1280){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-portrait.jpg)";
+    }
+    else if (sWidth  >= 768){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-landscape.jpg)";
+    }
+    else if (sWidth  >= 375){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-landscape.jpg)";
+    }
 }
 
 techBtn3.addEventListener('click', changeImg3);
 function changeImg3(){
-    tecImage.classList.remove("tech-image1");
-    tecImage.classList.remove("tech-image2");
-    tecImage.classList.add("tech-image3");
+    if (sWidth  >= 1280){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-portrait.jpg)";
+    }
+    else if (sWidth  >= 768){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
+    }
+    else if (sWidth  >= 375){
+        tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
+    }
 }
+console.log(sWidth);
 
 //End of technology page
