@@ -172,6 +172,10 @@ body {
   transition: 0.5s;
   cursor: help;
 }
+.num-active {
+  color: rgb(206, 33, 33);
+  background-color: rgb(17, 202, 131);
+}
 .terminology-txt,
 .tech-desc {
   color: #d0d6f9;

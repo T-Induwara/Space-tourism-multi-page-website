@@ -177,9 +177,6 @@ var techBtn3 = document.getElementById("num3");
 var tecImage = document.getElementById("tech-image");
 
 var sWidth = window.innerWidth;
-console.log(sWidth);
-
-
 
 techBtn1.addEventListener('click', changeImg1);
 function changeImg1(){
@@ -192,6 +189,9 @@ function changeImg1(){
     else if (sWidth >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
     }
+    techBtn1.classList.add("num-active");
+    techBtn2.classList.remove("num-active");
+    techBtn3.classList.remove("num-active");
 }
 
 techBtn2.addEventListener('click', changeImg2);
@@ -205,6 +205,9 @@ function changeImg2(){
     else if (sWidth  >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-landscape.jpg)";
     }
+    techBtn1.classList.remove("num-active");
+    techBtn2.classList.add("num-active");
+    techBtn3.classList.remove("num-active");
 }
 
 techBtn3.addEventListener('click', changeImg3);
@@ -218,7 +221,9 @@ function changeImg3(){
     else if (sWidth  >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
     }
+    techBtn1.classList.remove("num-active");
+    techBtn2.classList.remove("num-active");
+    techBtn3.classList.add("num-active");
 }
-console.log(sWidth);
 
 //End of technology page
