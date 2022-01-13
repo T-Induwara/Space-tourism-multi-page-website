@@ -173,8 +173,8 @@ body {
   cursor: help;
 }
 .num-active {
-  color: rgb(206, 33, 33);
-  background-color: rgb(17, 202, 131);
+  color: black;
+  background-color: white;
 }
 .terminology-txt,
 .tech-desc {
@@ -433,7 +433,6 @@ body {
     height: 40px;
     border: 1px white solid;
     border-radius: 50px;
-    background-color: black;
     font-size: 32px;
     margin-left: 16px;
     margin-right: 16px;
@@ -714,7 +713,6 @@ body {
     height: 60px;
     border: 1px white solid;
     border-radius: 50px;
-    background-color: black;
     font-size: 32px;
     margin-left: 16px;
     margin-right: 16px;
@@ -984,7 +982,6 @@ body {
     height: 80px;
     border: 1px white solid;
     border-radius: 50px;
-    background-color: black;
     font-size: 32px;
     margin-top: 16px;
     margin-bottom: 16px;

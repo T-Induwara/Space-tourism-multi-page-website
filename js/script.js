@@ -123,6 +123,8 @@ var crewName = document.getElementById("crew-name");
 var crewDesc = document.getElementById("crew-desc");
 var crewImage = document.getElementById("crew-image");
 
+crewNav1.classList.add("nav-circles-active");
+
 window.addEventListener('load',crewFunc);
 function crewFunc(){
     crewNav1.onclick = function(){
@@ -175,8 +177,11 @@ var techBtn1 = document.getElementById("num1");
 var techBtn2 = document.getElementById("num2");
 var techBtn3 = document.getElementById("num3");
 var tecImage = document.getElementById("tech-image");
+var techMain = document.getElementById("tech-main-txt");
+var techDesc = document.getElementById("tech-desc");
 
 var sWidth = window.innerWidth;
+techBtn1.classList.add("num-active");
 
 techBtn1.addEventListener('click', changeImg1);
 function changeImg1(){
@@ -189,6 +194,8 @@ function changeImg1(){
     else if (sWidth >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-launch-vehicle-landscape.jpg)";
     }
+    techMain.innerHTML = "LAUNCH VEHICLE";
+    techDesc.innerHTML = "A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!";
     techBtn1.classList.add("num-active");
     techBtn2.classList.remove("num-active");
     techBtn3.classList.remove("num-active");
@@ -205,6 +212,8 @@ function changeImg2(){
     else if (sWidth  >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-spaceport-landscape.jpg)";
     }
+    techMain.innerHTML = "SPACEPORT";
+    techDesc.innerHTML = "A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.";
     techBtn1.classList.remove("num-active");
     techBtn2.classList.add("num-active");
     techBtn3.classList.remove("num-active");
@@ -221,6 +230,8 @@ function changeImg3(){
     else if (sWidth  >= 375){
         tecImage.style.backgroundImage = "url(/assets/technology/image-space-capsule-landscape.jpg)";
     }
+    techMain.innerHTML = "SPACE CAPSULE";
+    techDesc.innerHTML = "A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.";
     techBtn1.classList.remove("num-active");
     techBtn2.classList.remove("num-active");
     techBtn3.classList.add("num-active");
