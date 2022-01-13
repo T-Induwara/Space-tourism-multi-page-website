@@ -123,10 +123,10 @@ var crewName = document.getElementById("crew-name");
 var crewDesc = document.getElementById("crew-desc");
 var crewImage = document.getElementById("crew-image");
 
-crewNav1.classList.add("nav-circles-active");
 
 window.addEventListener('load',crewFunc);
 function crewFunc(){
+    crewNav1.classList.add("nav-circles-active");
     crewNav1.onclick = function(){
         crewImage.src = "assets/crew/image-douglas-hurley.webp";
         crewPosition.innerHTML = "COMMANDER";
@@ -168,10 +168,10 @@ function crewFunc(){
         crewNav4.classList.add("nav-circles-active");
     }
 }
-
 //End of crew page
 
 //Start of technology page
+console.log("Script loaded tech page");
 
 var techBtn1 = document.getElementById("num1");
 var techBtn2 = document.getElementById("num2");
@@ -236,5 +236,6 @@ function changeImg3(){
     techBtn2.classList.remove("num-active");
     techBtn3.classList.add("num-active");
 }
+console.log("GG");
 
 //End of technology page
