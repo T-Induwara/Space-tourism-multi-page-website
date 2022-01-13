@@ -161,8 +161,14 @@ body {
   font-family: "Barlow Condensed", sans-serif;
 }
 .num {
-  color: black;
+  color: white;
   font-family: "Bellefair", serif;
+  transition: 0.5s;
+}
+.num:hover {
+  color: black;
+  background-color: white;
+  transition: 0.5s;
 }
 .terminology-txt,
 .tech-desc {
@@ -861,8 +867,9 @@ body {
     align-items: center;
     width: 80px;
     height: 80px;
+    border: 1px white solid;
     border-radius: 50px;
-    background-color: white;
+    background-color: black;
     font-size: 32px;
     margin-top: 16px;
     margin-bottom: 16px;
