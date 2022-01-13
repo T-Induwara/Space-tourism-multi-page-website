@@ -557,7 +557,6 @@ body {
   .dest-title {
     text-align: left;
     font-size: 20px;
-    margin-left: 5vw;
   }
   .dest-title span {
     font-size: 20px;
@@ -1019,4 +1018,10 @@ body {
     right: 0px;
   }
   /*End of tech page css*/
+}
+@media only screen and (min-width: 1900px) {
+  /*This breakpoint only use for technology page specific css rule*/
+  #tech-col1 {
+    padding-left: 16vw;
+  }
 }
