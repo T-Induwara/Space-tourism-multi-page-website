@@ -1017,6 +1017,24 @@ body {
     position: absolute;
     right: 0px;
   }
+  .tech-image2 {
+    background: url("/assets/technology/image-spaceport-portrait.jpg");
+    width: 515px;
+    height: 575px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0px;
+  }
+  .tech-image3 {
+    background: url("/assets/technology/image-space-capsule-portrait.jpg");
+    width: 515px;
+    height: 575px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0px;
+  }
   /*End of tech page css*/
 }
 @media only screen and (min-width: 1900px) {

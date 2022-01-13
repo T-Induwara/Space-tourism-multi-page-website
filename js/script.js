@@ -168,3 +168,33 @@ function crewFunc(){
 }
 
 //End of crew page
+
+//Start of technology page
+
+var techBtn1 = document.getElementById("num1");
+var techBtn2 = document.getElementById("num2");
+var techBtn3 = document.getElementById("num3");
+var tecImage = document.getElementById("tech-image");
+
+techBtn1.addEventListener('click', changeImg1);
+function changeImg1(){
+    tecImage.classList.add("tech-image1");
+    tecImage.classList.remove("tech-image2");
+    tecImage.classList.remove("tech-image3");
+}
+
+techBtn2.addEventListener('click', changeImg2);
+function changeImg2(){
+    tecImage.classList.remove("tech-image1");
+    tecImage.classList.add("tech-image2");
+    tecImage.classList.remove("tech-image3");
+}
+
+techBtn3.addEventListener('click', changeImg3);
+function changeImg3(){
+    tecImage.classList.remove("tech-image1");
+    tecImage.classList.remove("tech-image2");
+    tecImage.classList.add("tech-image3");
+}
+
+//End of technology page
