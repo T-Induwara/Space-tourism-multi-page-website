@@ -582,10 +582,11 @@ body {
     margin-top: 3vh;
   }
   .crew-title {
-    font-size: 28px;
+    font-size: 20px;
+    text-align: left;
   }
   .crew-title span {
-    font-size: 28px;
+    font-size: 20px;
   }
   .crew-content {
     margin-top: 10vh;
@@ -633,15 +634,16 @@ body {
   }
   .tech-title {
     text-align: left;
-    font-size: 28px;
+    font-size: 20px;
     margin-left: 5vw;
   }
   .tech-title span {
-    font-size: 28px;
+    font-size: 20px;
   }
   .tech-sub-col {
     margin-top: 15vh;
     margin-left: 0vw;
+    margin-top: 45vh;
   }
   .tech-nums {
     display: flex;
@@ -676,14 +678,19 @@ body {
     font-size: 16px;
     margin-top: 3vh;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  #tech-col2 {
+    position: absolute;
+    padding: 0px;
+    margin-top: 10vh;
   }
   .tech-image {
     background: url("/assets/technology/image-launch-vehicle-landscape.jpg");
-    width: 768px;
-    height: 310px;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
   }
   /*End of tech page css*/
 }
@@ -890,6 +897,9 @@ body {
   }
   /*End of crew page css*/
   /*Start of tech page css*/
+  #tech-col1 {
+    padding-left: 5vw;
+  }
   .tech-title {
     text-align: left;
     font-size: 28px;
@@ -928,13 +938,17 @@ body {
   }
   .terminology-txt {
     font-size: 16px;
+    text-align: left;
   }
   .tech-main-txt {
     font-size: 56px;
+    text-align: left;
   }
   .tech-desc {
     font-size: 18px;
     margin-top: 3vh;
+    text-align: left;
+    padding-right: 50px;
   }
   .tech-image {
     background: url("/assets/technology/image-launch-vehicle-portrait.jpg");
