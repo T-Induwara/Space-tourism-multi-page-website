@@ -181,6 +181,7 @@ var techMain = document.getElementById("tech-main-txt");
 var techDesc = document.getElementById("tech-desc");
 
 var sWidth = window.innerWidth;
+
 techBtn1.classList.add("num-active");
 
 techBtn1.addEventListener('click', changeImg1);
@@ -236,6 +237,6 @@ function changeImg3(){
     techBtn2.classList.remove("num-active");
     techBtn3.classList.add("num-active");
 }
-console.log("GG");
+console.log("Sript running complete");
 
 //End of technology page

@@ -144,7 +144,7 @@ body {
   opacity: 100%;
 }
 .nav-circles:hover {
-  background-color: white;
+  background-color: #979797;
   transition: 0.5s;
   opacity: 100%;
   cursor: help;
