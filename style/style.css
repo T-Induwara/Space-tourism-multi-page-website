@@ -632,10 +632,58 @@ body {
     margin-top: 3vh;
   }
   .tech-title {
+    text-align: left;
     font-size: 28px;
+    margin-left: 5vw;
   }
   .tech-title span {
     font-size: 28px;
+  }
+  .tech-sub-col {
+    margin-top: 15vh;
+    margin-left: 0vw;
+  }
+  .tech-nums {
+    display: flex;
+    justify-content: center;
+  }
+  .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 1px white solid;
+    border-radius: 50px;
+    background-color: black;
+    font-size: 32px;
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .tech-sub-content {
+    margin-left: 0vw;
+    padding-top: 5vh;
+  }
+  .terminology-txt {
+    font-size: 16px;
+    text-align: center;
+  }
+  .tech-main-txt {
+    font-size: 40px;
+    text-align: center;
+  }
+  .tech-desc {
+    font-size: 16px;
+    margin-top: 3vh;
+    text-align: center;
+  }
+  .tech-image {
+    background: url("/assets/technology/image-launch-vehicle-landscape.jpg");
+    width: 768px;
+    height: 310px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
   }
   /*End of tech page css*/
 }
@@ -887,6 +935,15 @@ body {
   .tech-desc {
     font-size: 18px;
     margin-top: 3vh;
+  }
+  .tech-image {
+    background: url("/assets/technology/image-launch-vehicle-portrait.jpg");
+    width: 515px;
+    height: 575px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    right: 0px;
   }
   /*End of tech page css*/
 }
