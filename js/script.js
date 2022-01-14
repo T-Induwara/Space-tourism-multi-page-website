@@ -15,6 +15,7 @@ var techNavBtn = document.getElementById("tech-nav-btn");
 
 var hamMenuIcon = document.getElementById("toggle-ham-menu").appendChild(menu1);
 
+homeNavBtn.classList.add("navbar-links-active");
 function imgClick(){
     if (hamMenuIcon.src.match("assets/shared/icon-hamburger.svg")){
         hamMenuIcon.src = "assets/shared/icon-close.svg";
@@ -27,11 +28,9 @@ function imgClick(){
 }
 
 if(window.location.href.indexOf("index") != -1){
-    console.log("INDEX page");
     homeNavBtn.classList.add("nav-btn-active");
 }
 else if(window.location.href.indexOf("destination") != -1){
-    console.log("DESTINATION page");
     destNavBtn.classList.add("nav-btn-active");
 }
 else if(window.location.href.indexOf("crew") != -1){
