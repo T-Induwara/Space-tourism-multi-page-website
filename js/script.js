@@ -15,7 +15,6 @@ var techNavBtn = document.getElementById("tech-nav-btn");
 
 var hamMenuIcon = document.getElementById("toggle-ham-menu").appendChild(menu1);
 
-homeNavBtn.classList.add("navbar-links-active");
 function imgClick(){
     if (hamMenuIcon.src.match("assets/shared/icon-hamburger.svg")){
         hamMenuIcon.src = "assets/shared/icon-close.svg";
@@ -26,18 +25,21 @@ function imgClick(){
         navLinks.classList.remove("navbar-links-active");
     }
 }
-
+homeNavBtn.classList.add("nav-btn-active");
 if(window.location.href.indexOf("index") != -1){
     homeNavBtn.classList.add("nav-btn-active");
 }
 else if(window.location.href.indexOf("destination") != -1){
     destNavBtn.classList.add("nav-btn-active");
+    homeNavBtn.classList.remove("nav-btn-active");
 }
 else if(window.location.href.indexOf("crew") != -1){
     crewNavBtn.classList.add("nav-btn-active");
+    homeNavBtn.classList.remove("nav-btn-active");
 }
 else if(window.location.href.indexOf("tech") != -1){
     techNavBtn.classList.add("nav-btn-active");
+    homeNavBtn.classList.remove("nav-btn-active");
 }
 //End of navigation bar js
 
