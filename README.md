@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click here](https://your-solution-url.com)
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/space-tourism-multipage-website-1DWxFcFiU)
 - Live Site URL: [Click here](https://space-tourism-multi-page-website-one.vercel.app/)
 
 ## My process
